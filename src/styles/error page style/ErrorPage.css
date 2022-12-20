@@ -1,0 +1,37 @@
+.error-text {
+  font-size: 212px;
+  font-weight: 700;
+  height: 268px;
+}
+.zero {
+  color: #3bb777;
+}
+.page-not-found {
+  color: #1c1c25;
+  font-size: 30px;
+  font-weight: bold;
+}
+.error-content {
+  font-size: 20px;
+
+  color: #6a6a6a;
+}
+.return-btn {
+  padding: 5px 28px;
+  background-color: #3bb777;
+  color: white !important;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none !important;
+  cursor: pointer;
+}
+.return-btn:hover {
+  background-color: #101010;
+  text-decoration: none;
+}
+@media only screen and (max-width: 592px) {
+  .error-text {
+    /* height: 10px !important; */
+    height: auto !important;
+  }
+}

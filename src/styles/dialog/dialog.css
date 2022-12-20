@@ -1,0 +1,10 @@
+.cancel-paypal {
+  color: red;
+  border: 9px solid red;
+  border-radius: 50%;
+  width: 77% !important;
+  text-align: center;
+  height: 13% !important;
+  display: flex;
+  justify-content: center;
+}

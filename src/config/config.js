@@ -1,0 +1,4 @@
+export const CAPTCHA_SITE_KEY = "6LcD4_seAAAAAJpl_V_eqq5iDvYSEeBnVhdBSw3v";
+
+export const PAYPAL_CLIENT_ID =
+  "ASv0OTR9juTZW4RcslHqIGGf3YrT1KI9hESBe_DaMT3QM1OniN2KQ0ffDkPHh_m0pmrdZkyUSgwSgGEc";

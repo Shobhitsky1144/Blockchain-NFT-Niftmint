@@ -1,0 +1,185 @@
+/* all nft css */
+.purchase-parent {
+  padding: 6rem 3rem;
+}
+
+.purchase-btn {
+  width: 60%;
+}
+
+#sortitem {
+  border: none;
+  font-weight: bold;
+  height: 30px;
+  width: 77px;
+  cursor: pointer;
+}
+#sortitem:focus {
+  border: none !important;
+  outline: none !important;
+  width: 106px;
+}
+
+@media only Screen and (max-width: 768px) {
+  .second-section-sorting {
+    justify-content: flex-start !important;
+    /* margin-top: 10px; */
+  }
+  .second-msg {
+    display: none !important;
+  }
+}
+@media only Screen and (max-width: 992px) {
+  .second-msg {
+    display: none !important;
+  }
+  .div-func {
+    border: none !important;
+  }
+
+  .purchase-parent {
+    margin-bottom: 30px;
+  }
+  .first-col {
+    padding-right: 0 !important;
+  }
+  .row-item {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  /* #sortnft {
+    cursor: pointer; */
+  /* border: 1px solid #f1f1f1; */
+  /* border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 110px;
+  } */
+  /* .purchase-btn {
+    width: 100%;
+  } */
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .second-section-sorting {
+    justify-content: flex-start !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .second-section-sorting {
+    height: 49px;
+  }
+  .min-max-price-parent {
+    margin-top: 14px;
+  }
+}
+
+@media only Screen and (max-width: 430px) {
+  /* #sortitem {
+    width: 77px;
+  } */
+  .min-max-price-parent {
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
+  .nft-titles br {
+    display: none;
+  }
+  .purchase-btn {
+    width: 100%;
+  }
+  .purchase-parent {
+    padding: 2rem 2rem;
+  }
+  .paypl {
+    width: 100% !important;
+  }
+  /* #sortnft {
+    cursor: pointer;
+    /* border: 1px solid #f1f1f1; */
+  /* width: 110px;
+    border-radius: 10px;
+    padding: 0px 15px;
+    height: 53px;
+  } */
+}
+
+.nft-head {
+  color: #999999;
+}
+
+.nft-desc {
+  color: #999999;
+}
+
+.div-func {
+  cursor: pointer;
+  /* border: 1px solid #f1f1f1; */
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+/* purchase page  */
+
+.purchase-parent {
+  background: rgba(196, 196, 196, 0.05);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.full-buy-btn:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.active-radio {
+  background-color: #f5faff;
+  padding: 2rem 0rem;
+}
+/* .paypal-button {
+  margin-left: 2rem !important;
+} */
+.form-check-input {
+  margin-left: 1px !important;
+}
+#sortnft {
+  cursor: pointer;
+  /* border: 1px solid #f1f1f1; */
+  /* width: 77px; */
+  border-radius: 10px;
+  padding: 0px 15px;
+  height: 53px;
+}
+
+.go-btn {
+  background: black;
+  color: white;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+.range-input {
+  width: 65px;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 65px;
+}
+.range-input:focus {
+  border: none !important;
+  outline: none;
+  border-bottom: 2px solid black !important;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.min-max-price-parent {
+  padding: 30px 18px;
+}
+
+/* .buy-nft-parent:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */

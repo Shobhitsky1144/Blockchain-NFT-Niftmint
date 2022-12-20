@@ -1,0 +1,41 @@
+/* complete account */
+.complete-account-row {
+  /* box-shadow: 1px 1px 8px 1px #888888; */
+}
+.title {
+  color: #3bb777;
+  font-weight: 700;
+}
+.text {
+  font-size: 19px;
+}
+.complete-account-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 5px 28px;
+  font-size: 18px;
+}
+
+.slidez {
+  border-top: 9px solid #3bb777;
+  border-width: 3px !important;
+  margin-right: 1rem;
+  width: 65px;
+}
+.slidey {
+  border-top: 9px solid #3bb777;
+  border-width: 3px !important;
+  margin-right: 1rem;
+  width: 65px;
+}
+.slides {
+  border-top: 9px solid black;
+  border-width: 3px;
+  width: 65px;
+}
+
+@media screen and (max-width: 592px) {
+  .complete-container {
+    margin-top: 3rem !important;
+  }
+}

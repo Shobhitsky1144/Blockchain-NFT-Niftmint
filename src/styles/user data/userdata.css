@@ -1,0 +1,169 @@
+/* .username-title {
+  font-size: 40px;
+  color: black;
+} */
+.buy-nft-img {
+  width: 100%;
+  border-radius: 20px;
+}
+.buy-title {
+  font-size: 20px;
+}
+
+.buy-now-box {
+  margin: 0px 26px;
+  position: relative;
+  top: -6rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px 1px #888888;
+}
+.collection-box {
+  margin: 0px 26px;
+  /* padding: 10px; */
+  position: relative;
+  top: -4rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px 1px #888888;
+}
+.buy-heading {
+  color: #6f6f6f;
+  font-size: 14px;
+}
+.buy-btn button {
+  /* height: 40px;
+  width: 100px; */
+
+  background: #7bd7ab;
+
+  border-radius: 8px;
+  padding: 9px 31px 9px 31px;
+  /* color: black; */
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.buy-user-img {
+  height: 49px;
+  width: 49px;
+}
+
+@media only screen and (max-width: 408px) {
+  .buy-now-box {
+    margin: 0px 18px;
+  }
+  .bio-img {
+    width: 127px;
+    height: 127px;
+  }
+  /* .short-detail {
+    position: unset !important;
+    /* right: 17px; */
+  /* }  */
+  .second-container {
+    padding-top: 2rem;
+  }
+  .auth-container {
+    padding-top: 2rem;
+  }
+  .first-btn {
+    margin-top: 5px !important;
+    width: 100%;
+  }
+  .second-btn {
+    margin-top: 5px !important;
+    width: 100%;
+  }
+  .second-msg {
+    margin-bottom: 0px !important;
+  }
+  .third-btn {
+    width: 100%;
+    margin-top: 17px !important;
+  }
+  .payment-btn {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 592px) {
+  .username-title {
+    font-size: 24px;
+  }
+  .username-desc {
+    font-size: 16px;
+  }
+  /* .short-detail {
+    position: relative;
+    right: 7px;
+  } */
+}
+
+.short-detail {
+  position: relative;
+  right: 17px;
+}
+
+.account-desc {
+  font-size: 13px;
+  font-weight: bold;
+}
+.userinfo-labels {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 992px) {
+  .second-msg {
+    margin-bottom: 0px !important;
+  }
+  .third-btn {
+    /* width: 100%; */
+    margin-top: 17px !important;
+  }
+  .second-container {
+    padding-top: 3rem;
+  }
+  .auth-container {
+    padding-top: 3rem;
+  }
+  .first-btn {
+    margin-top: 5px !important;
+    /* width: 100%; */
+  }
+  .second-btn {
+    margin-top: 5px !important;
+    /* width: 100%; */
+  }
+  .second-msg {
+    margin-bottom: 0px !important;
+  }
+  /* .short-detail {
+    position: relative;
+    right: 1px;
+  } */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .second-btn {
+    margin-top: 30px !important;
+    /* width: 100%; */
+  }
+  .third-btn {
+    margin-top: 161px !important;
+    /* width: 100%; */
+  }
+  .buy-now-box {
+    margin: 0px 15px !important;
+  }
+}
+.blockchain-labels {
+  font-size: 19px;
+}
+
+.wallet-address {
+  /* border-top: 2px dotted gray; */
+  border-bottom: 1px solid lightgray;
+  color: #999999;
+  font-size: 16px;
+  /* padding: 5px 0px; */
+}

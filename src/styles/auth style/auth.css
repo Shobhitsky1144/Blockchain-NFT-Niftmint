@@ -1,0 +1,126 @@
+/* register */
+/* @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap"); */
+
+.title {
+  color: #3bb777;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* .register-section-second {
+  padding-left: 58px !important;
+  padding-right: 58px !important;
+} */
+.text {
+  font-size: 16px !important;
+}
+.terms-text {
+  color: #3bb777 !important;
+  font-size: 17px;
+  /* font-weight: 600; */
+  /* font-weight: 600; */
+}
+.register-container {
+  /* box-shadow: 1px 1px 8px 1px #888888; */
+}
+.form-check {
+  padding-left: 0rem !important;
+}
+.register-text {
+  font-size: 15px;
+}
+.register-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 5px 28px;
+  font-size: 20px;
+}
+.register-btn:hover {
+  background-color: #101010 !important;
+}
+
+.register-btndisable {
+  background: grey !important;
+  border: none !important;
+  padding: 5px 28px;
+  font-size: 18px;
+}
+.register-btndisable:hover {
+  background: grey !important;
+  border: none !important;
+}
+.register-img {
+  width: 100%;
+}
+
+/* media query */
+@media (max-width: 990px) and (min-width: 768px) {
+  .register-img {
+    /* width: 67% !important; */
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 990px) {
+  .register-img {
+    /* width: 67% !important; */
+    /* margin-bottom: 1rem; */
+    margin-bottom: 2rem;
+  }
+  /* .register-section-second {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .login-section-second {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .verifyemail-section-second {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  } */
+}
+
+/* login */
+
+.login-container {
+  /* box-shadow: 1px 1px 8px 1px #888888; */
+}
+
+Link:hover {
+  text-decoration: none !important;
+}
+.login-text {
+  font-size: 16px;
+}
+.login-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 5px 28px;
+  font-size: 18px;
+}
+.login-btn:hover {
+  background-color: #101010 !important;
+}
+/* .login-section-second {
+  /* background: YELLOW; */
+/* padding-left: 58px;
+  padding-right: 58px;
+} */
+/* verify email */
+.verifyemail-container {
+  /* box-shadow: 1px 1px 8px 1px #888888; */
+}
+
+.verifyemail-text {
+  font-size: 16px;
+}
+.verifyemail-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 11px 49px;
+  font-size: 18px;
+}
+.verifyemail-section-second {
+  padding-top: 3rem;
+  /* padding-left: 58px;
+  padding-right: 58px; */
+}

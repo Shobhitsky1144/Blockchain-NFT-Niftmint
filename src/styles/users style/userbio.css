@@ -1,0 +1,107 @@
+.userbio-account-row {
+  /* box-shadow: 1px 1px 8px 1px #888888; */
+}
+.title {
+  color: #3bb777;
+  font-weight: 700;
+}
+.text {
+  font-size: 19px;
+}
+.userbio-account-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 5px 28px;
+  font-size: 18px;
+}
+.bio-img {
+  width: 202px;
+  height: 202px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.username {
+  position: absolute;
+  top: 6.6rem;
+  left: 13rem;
+  font-size: 19px;
+}
+.hero-section {
+  position: relative;
+}
+.user-heading {
+  /* position: relative; */
+  margin-left: 0.5rem;
+  /* left: 2rem; */
+  font-weight: bold;
+  font-size: 20px;
+}
+.textarea {
+  font-size: 19px;
+}
+.camera-div {
+  background: #e4e6eb;
+  border-radius: 50%;
+  left: 10.9rem;
+  top: 8rem;
+  display: flex;
+  padding: 7px;
+  position: absolute;
+  cursor: pointer;
+}
+.camera-img {
+  width: 20px;
+  height: 20px;
+  /* padding: 20px; */
+  /* background: red; */
+}
+
+@media only screen and (max-width: 408px) {
+  .bio-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .user-heading {
+    /* position: relative; */
+    margin-left: 0.5rem;
+    /* left: 2rem; */
+    font-weight: bold;
+    font-size: 15px;
+  }
+  /* .camera-div {
+    background: #e4e6eb;
+    border-radius: 50%;
+    left: 8rem;
+    top: 6rem;
+    display: flex;
+    padding: 7px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .username {
+    position: absolute;
+    top: 5.3rem;
+    left: 10.5rem;
+    font-size: 19px;
+  } */
+  .userbio-account-section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media only screen and (max-width: 472px) {
+  .bio-img {
+    width: 148px !important;
+    height: 148px !important;
+  }
+  .camera-div {
+    left: 7.2rem;
+    top: 5.5rem;
+  }
+  .username {
+    top: 5.6rem;
+    left: 10rem;
+  }
+}

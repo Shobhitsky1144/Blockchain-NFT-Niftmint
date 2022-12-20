@@ -1,0 +1,119 @@
+/* home container */
+
+.home-container {
+  /* box-shadow: 1px 1px 8px 1px #888888; */
+}
+
+.home-text {
+  font-size: 16px;
+}
+.home-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 11px 49px;
+  font-size: 17px;
+}
+.home-transferbtn {
+  background-color: #fdba74;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 19px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.home-section-second {
+  padding-top: 6rem;
+  padding-left: 4rem;
+}
+.anchr-link {
+  border-bottom: 1px solid #007bff;
+}
+.anchr-link:hover {
+  text-decoration: none !important;
+}
+.home-data {
+  font-size: 15px;
+}
+.nftBox {
+  /* box-shadow: 1px 1px 8px 1px #888888;
+  padding: 8px 27px;
+  border-radius: 5px; */
+  box-shadow: 1px 1px 8px 1px #888888;
+  padding: 24px 33px;
+  border-radius: 5px;
+  margin: -39px 30px;
+  background: white;
+  position: relative;
+}
+.nft-btn {
+  background: #3bb777;
+  color: white;
+  padding: 5px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.afternftBox {
+  padding: 8px 27px;
+  /* border-radius: 5px; */
+}
+
+/* .home-transfer-dialog */
+.transfer-heading {
+  /* font-size: 20px;
+  font-weight: bold; */
+
+  font-family: Urbanist;
+  font-size: 30px;
+  font-weight: 700;
+  /* line-height: 36px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+.para {
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 400;
+  /* line-height: 25px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.transfer-head {
+  color: black;
+  /* font-weight: bold; */
+  /* font-size: 17px; */
+
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 600;
+  /* line-height: 14px; */
+  letter-spacing: 0em;
+  text-align: left;
+}
+.MuiDialogContent-root {
+  /* padding: 0px 9px !important; */
+}
+.nft-heading {
+  margin-bottom: 1.5rem;
+}
+
+/* media query nft-details  page */
+
+@media only screen and (max-width: 768px) {
+  .home-section-second {
+    padding-top: 0rem;
+    padding-left: 1rem;
+  }
+}
+
+/* nft-details page */
+@media only screen and (max-width: 400px) {
+  .nft-heading {
+    font-size: 28px;
+  }
+  .closeicon {
+    padding-right: 0px !important;
+  }
+}
